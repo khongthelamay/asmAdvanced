@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-
+// Nếu như đã hiểu file ControlSystem thì qua bên này cũng như vậy thôi
 Menu::Menu()
 {
     ControlSys = new ControlSystem();

@@ -13,6 +13,7 @@ class SongGenre
 {
 private:
     string name;
+    //đây chính là cái vector chứa tất cả bài hát của loại nhạc nào đấy mà t đã nhắc tới trước đó
     vector<Song> Songs;
 public:
     SongGenre(const string &name);

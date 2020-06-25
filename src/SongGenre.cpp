@@ -5,14 +5,20 @@
 
 using namespace std;
 
+//Lấy tên của thể loại nhạc
 SongGenre::SongGenre(const string &name)
 {
     this->name = name;
 }
+//thêm bài hát vào trong vector Songs
 void SongGenre::addSong(const string &name)
 {
     Songs.push_back(Song(name));
 }
+// Những phần code dưới này tương tự như việc thêm loại
+// nhạc trong File MusicStore
+
+
 bool SongGenre::findSong(const string &name)
 {
     for(int i = 0; i < Songs.size(); i++)
